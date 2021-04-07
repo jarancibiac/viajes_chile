@@ -12,13 +12,18 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 h4{
-    border-bottom: 2px solid #34A1AE;
+    border-bottom: 3px solid #34A1AE;
 }
 
 footer{
     background:#34A1AE ;
     width: 100%;
     position: absolute;
+
+}
+
+.logo{
+    background:#34A1AE ;
 
 }
 
