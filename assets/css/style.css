@@ -10,20 +10,41 @@ body{
     background: black;
     color:white;
     font-family: 'Montserrat', sans-serif;
+
 }
+
+
+
+
+
+
+
+
 h4{
     border-bottom: 3px solid #34A1AE;
 }
 
 footer{
-    background:#34A1AE ;
-    width: 100%;
-    position: absolute;
+    background: #34A1AE;
 
 }
 
+.icons-section .container div{
+    width: 10%;
+    display:inline-block;
+    font-size: 10px;
+    font-weight: 100;
+
+}
+.icons-section i{
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
 .logo{
-    background:#34A1AE ;
+    background: #34A1AE;
 
 }
+
 
