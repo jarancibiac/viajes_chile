@@ -9,19 +9,24 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <!-- Navegador -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixer-top Bg-transparent">
+  <!-- P1.Barra de navegación fija -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top Bg-transparent">
     <a class="navbar-brand" href="#">
-      <img src="assets/img/viajes.svg" width="50" height="50" alt="">
+      <!-- P1.Logo -->
+      <img src="assets/img/viajes.svg" width="30" height="30" alt="logo viaje">
       Viajes Chile
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <!-- P1.Logo alineación a la derecha-->
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
         </li>
@@ -32,7 +37,7 @@
           <a class="nav-link" href="#destacados">Destacados</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
+          <a class="nav-link" href="#contacto">Contacto</a>
         </li>
       </ul>
     </div>
@@ -64,21 +69,71 @@
   </header>
   <!-- Sección 1:¿Quienes somos? -->
   <section id="quienes_somos">
-    <h4>¿Quiénes somos?</h4>
-
+    <div class="container">
+      <h4 class="text-center">¿Quiénes somos?</h4>
+      <div class="row">
+        <div class="col-4">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, reprehenderit porro a architecto aliquam inventore qui, aperiam eum pariatur assumenda nulla rerum dolor corrupti vitae dicta minima, veritatis quasi veniam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ad deleniti! Hic voluptates cupiditate fugit consectetur totam, ratione minus mollitia assumenda error amet rem corrupti! Eligendi molestiae dolorem repudiandae et.
+          </p>
+        </div>
+  
+        <div class="col-4">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, maxime aliquam iste officia saepe adipisci ab totam libero maiores odio porro ea. Velit blanditiis laudantium ratione aliquid error nisi tempora.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quaerat aliquid assumenda! Molestiae repudiandae quae recusandae laudantium eum velit consectetur numquam aliquam fugiat dolores! Nemo quisquam magni accusantium atque voluptatibus!
+          </p>
+        </div>
+  
+        <div class="col-4">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorem dolorum, laudantium repudiandae modi debitis eligendi doloribus quae odit at inventore aut, quibusdam fugiat ullam voluptatum perspiciatis. Maxime, assumenda vitae!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque sed expedita, iure necessitatibus at. Et, aliquam quaerat. Nisi, aliquam! Distinctio, ipsum molestiae voluptatum et repudiandae vel hic praesentium excepturi.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
   <!-- Sección 2: Destacados -->
   <section id="destacados">
-    <h4>Destacados</h4>
+    <div class="container">
+      <h4 class="text-center">¿Quiénes somos?</h4>
+      <div class="card-deck">
+        <div class="card">
+          <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
   </section>
   <!-- Sección 3: Contacto -->
   <section id="contacto">
-    <h4>Contacto</h4>
 
   </section>
-  <!-- Footer -->
-  <footer>
+  <!-- Footer: Contacto -->
+  <footer class="container-fluid">
+    <p>algo</p>
+
   </footer>
   
 
